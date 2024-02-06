@@ -75,10 +75,10 @@
     }
   },
   "dependencies": {
-    "@jsonhero/json-infer-types": "1.2.x",
-    "@jsonhero/json-schema-fns": "^0.0.1",
-    "ts-pattern": "^3.3.4",
-    "lodash.omit": "^4.5.0"
+    "@jsonhero/json-infer-types": "https://github.com/kevinhu/json-infer-types#patch-1",
+    "@jsonhero/json-schema-fns": "https://github.com/kevinhu/json-schema-fns#patch-1",
+    "lodash.omit": "^4.5.0",
+    "ts-pattern": "^3.3.4"
   },
   "bin": {
     "schema-infer": "./cli/schema-infer.js"
